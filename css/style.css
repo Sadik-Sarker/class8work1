@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* header start */
+header {
+  padding: 20px 0;
+  border-bottom: 1px solid #eef0f3;
+}
+.container {
+  width: 90%;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  width: 10%;
+  /* border: 1px solid green; */
+  margin-top: 3px;
+}
+
+.logo a img {
+  width: 100%;
+}
+
+.menu {
+  float: right;
+  width: 50%;
+  /*border: 1px solid blue; */
+}
+.menu ul {
+  float: right;
+}
+.menu ul li {
+  list-style-type: none;
+  float: left;
+}
+.menu ul li a {
+  text-decoration: none;
+  margin: 0 15px;
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #0f2656;
+}
+.menu ul li a:hover {
+  color: #0c66ff;
+}
+.menu ul li:last-child a {
+  margin-right: 0;
+}
+/* header end */
